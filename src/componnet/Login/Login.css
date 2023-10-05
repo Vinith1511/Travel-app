@@ -1,0 +1,83 @@
+.loginPage{
+    background:#F0BB75;
+    background-size: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  #title2{
+   padding-top: 10px;
+   color: #312F2F;
+   padding-left: 28px;
+  }
+  .Container{
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      }
+    
+    .Container h2 {
+      margin-right: 50px;
+      margin-bottom: 20px;
+      color: #312F2F;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+    
+    #email2{
+      margin-right: 300px;
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color:#312F2F;
+      margin-left: 3px;
+    }
+    #password2{
+      margin-right: 300px;
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #312F2F;
+      margin-left: 30px;
+    }
+    
+     input[type="email"],
+     input[type="password"] {
+      width: 80%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    button {
+      margin-top: 18px;
+      background-color:#312F2F;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #F0BB75;
+    }
+    
+  .img{
+    width:140px;
+    padding-left:30px;
+  }
+  .img4{
+    width: 250px;
+    padding-top: 30px;
+  }

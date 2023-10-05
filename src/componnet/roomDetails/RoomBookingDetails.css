@@ -1,0 +1,32 @@
+.booking-container {
+  background-color:#F0BB75;
+  padding: 20px;
+  border: 1px solid #F0BB75;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.booking-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.booking-container div {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.booking-container p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+#count{
+  font-weight: bold;
+}
+
+  

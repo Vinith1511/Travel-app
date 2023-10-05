@@ -1,0 +1,129 @@
+.RoomBooking{
+    background:#F0BB75;
+    background-size: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  #title{
+    margin-left: 10px;
+    margin-top: 30px;
+    color:#312F2F;
+  }
+  #para1{
+    padding-top:15px;
+  }
+  #para1{
+    color:#312F2F;
+    padding-left:30px ;
+  }
+  .Room-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .car-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color:#312F2F;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .car-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:#F0BB75;
+    margin-right: 30px;
+  }
+  
+  .car-card p {
+    margin-bottom: 10px;
+    color:#F7F0F0
+  }
+  
+  .book-button {
+    background-color:#F0BB75;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .book-button:hover {
+    background-color: #0056b3;
+  }
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:blur; 
+    z-index: 1;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #312F2F;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"],
+  input[type="checkbox"]
+  {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: #312F2F;
+  }
+  
+  button {
+    background-color:#312F2F;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  #closebut {
+    background-color:#312F2F;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  button:hover {
+    background-color:#312F2F;
+  }
+  #model-title{
+    color: #312F2F;
+  }
