@@ -3,6 +3,7 @@ import "./CarBooking.css"
 import Navbar from '../Navbar/Navbar';
 import { cars } from '../sampleData/carData';
 function CarBooking({ history }) {
+  console.log("Car Booking Data")
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [pickupPoint, setPickupPoint] = useState('');
   const [endPoint, setEndPoint] = useState('');
