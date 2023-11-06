@@ -17,7 +17,7 @@ function Home() {
     };
 
     return (
-        <div className='Home' style={{ height: '600px' }}>
+        <div className='Home' style={{ height: '606px' }}>
             <div> 
                 {/* nav bar logic */}
             <h1 id="heading">GoWithTravel</h1>

@@ -2,25 +2,27 @@ import React, { useEffect, useState } from 'react';
 import "./RoomBookingDetails.css"
 function RoomBookingDetails({ car, closeModal }) {
   const [bookingDetails, setBookingDetails] = useState(null);
-   var count=1;
+  const [bookingNum, setBookingNum] = useState(generateRandomBookingNumber());
+    function generateRandomBookingNumber() {
+        return Math.floor(Math.random() * 9999 + 9999);
+      }
   useEffect(() => {
     const storedDetails = localStorage.getItem('roomBookingsData');
 
     if (storedDetails) {
       setBookingDetails(JSON.parse(storedDetails));
-      count++;
-      count='';
     }
   }, []);
-
-  console.log(bookingDetails.length,'BOOK')
+  function handleButtonClick() {
+    setBookingNum(generateRandomBookingNumber());
+  }
+  console.log(bookingDetails,'BOOK')
   return (
-    <div className='booking-container '>
-      <h2>Confirmation</h2>
+    <div className='booking-container 'style={{ height: '444px' }} >
+        <h2>Booking Details</h2>
 {bookingDetails?.map((e,index) => (
   <div>
-    <p id="count">Booking #{count}</p>
-    <h2>booked details</h2>
+    <p id="count">Booking number:{bookingNum}</p>
 
     <p>Check-In: {e.checkin}</p>
       <p>Check-Out: {e.checkout}</p>

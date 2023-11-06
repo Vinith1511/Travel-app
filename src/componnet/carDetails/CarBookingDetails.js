@@ -17,11 +17,11 @@ function CarBookingDetails() {
       }
     console.log(bookingDetails,'CAR')
   return (
-    <div className='carBooking-container'>
+    <div className='carBooking-container'style={{ height: '444px' }}>
         <h2>Booked Details</h2>
         {bookingDetails?.map((e,index)=>(
             <div>
-                <p id="countRecord">Booking Number#{bookingNum}</p>
+                <p id="countRecord">Booking Number:{bookingNum}</p>
                 <p>pickupPoint: {e.pickupPoint}</p>
                 <p>endPoint: {e.endPoint}</p>
                 <p>date: {e.date}</p>

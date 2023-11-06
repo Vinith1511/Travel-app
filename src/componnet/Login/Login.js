@@ -3,6 +3,7 @@ import "./Login.css"
 import Home from '../Home/Home';
 import { useNavigate } from 'react-router-dom';
 function Login() {
+  //...If you any change in Login.modified the code...
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -26,7 +27,7 @@ function Login() {
   return (
     <div>
        <div
-      className='loginPage' style={{ height: '600px' }}
+      className='loginPage' style={{ height: '606px' }}
     >
       <div>
         <h2 id="title2">GoWithTravel</h2>

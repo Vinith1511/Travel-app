@@ -21,7 +21,7 @@ function Signup() {
   }
   return (
     <div
-      className='Page' style={{ height: '600px' }}
+      className='Page' style={{ height: '606px' }}
     >
       <div>
         <h2 id="title">GoWithTravel</h2>
